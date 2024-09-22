@@ -11,6 +11,8 @@ composeBom = "2024.09.02"
 cameraExtensions = "1.4.0-rc02"
 multidex = "1.0.3"
 accompanistPermissions = "0.34.0"
+firebaseCrashlyticsBuildtools = "3.0.2"
+workRuntimeKtx = "2.9.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +36,8 @@ androidx-camera-extensions = { module = "androidx.camera:camera-extensions", ver
 androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraExtensions" }
 androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraExtensions" }
 multidex = { module = "com.android.support:multidex", version.ref = "multidex" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
