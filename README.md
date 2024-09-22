@@ -26,7 +26,7 @@ This repository demonstrates an Android object detection application using the N
 ### Step 2: Integrate NCNN into the Project
 
 1. Unzip `ncnn-android-vulkan.zip` into the `demo_od/app/src/main/jni` directory.
-2. Update the `ncnn_DIR` path in `demo_od/app/src/main/cpp/CMakeLists.txt` to match your setup.
+2. Update the `ncnn_DIR` path in `demo_od/app/src/main/jni/CMakeLists.txt` to match your setup.
 
    ![NCNN Directory Setup](./images/1.png)
 
